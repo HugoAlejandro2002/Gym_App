@@ -61,6 +61,8 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }:any) => {
   return (
     <AuthContext.Provider value={{ isLogged, login, logout }}>
       {children}
+
+      
     </AuthContext.Provider>
   );
 };
